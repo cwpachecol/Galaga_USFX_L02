@@ -26,7 +26,7 @@ private:
 	float posicionX;
 	float posicionY;
 	float posicionZ;
-	//FVector posicion;
+	FVector posicion;
 public:
 	FORCEINLINE float GetResistencia() const { return resistencia; }
 	FORCEINLINE float GetVelocidad() const { return velocidad; }
