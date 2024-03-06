@@ -26,7 +26,7 @@ void AGalaga_USFX_L02GameMode::BeginPlay()
 		NaveEnemiga01 = World->SpawnActor<ANaveEnemiga>(ubicacionNave, rotacionNave);
 	}
 
-	NaveEnemiga01->SetPosicionX(2000.0f);
+	NaveEnemiga01->SetPosicion(FVector(1000.0f, 300.0f, 150.0f));
 	
 }
 
