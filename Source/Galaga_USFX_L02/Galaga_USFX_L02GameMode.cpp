@@ -3,6 +3,8 @@
 #include "Galaga_USFX_L02GameMode.h"
 #include "Galaga_USFX_L02Pawn.h"
 #include "NaveEnemiga.h"
+#include "NaveEnemigaCaza.h"
+#include "NaveEnemigaTrasporte.h"
 
 AGalaga_USFX_L02GameMode::AGalaga_USFX_L02GameMode()
 {

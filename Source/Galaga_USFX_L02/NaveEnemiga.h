@@ -30,6 +30,7 @@ protected:
 	FVector posicion;
 	//CATrayectoria* trayectoria;
 public:
+	// Metodos accesores
 	FORCEINLINE float GetVelocidad() const { return velocidad; }
 	FORCEINLINE float GetVelocidadDisparo() const { return velocidadDisparo; }
 	FORCEINLINE float GetResistencia() const { return resistencia; }
@@ -63,5 +64,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+protected:
+	virtual void Mover();
 
 };
