@@ -24,7 +24,10 @@ protected:
 
 public:
 	ANaveEnemiga* NaveEnemiga01;
-
+	ANaveEnemigaCaza* NaveEnemigaCaza01;
+	ANaveEnemigaCaza* NaveEnemigaCaza02;
+	ANaveEnemigaTransporte* NaveEnemigaTransporte01;
+	ANaveEnemigaTransporte* NaveEnemigaTransporte02;
 };
 
 

@@ -8,7 +8,7 @@
 
 class UstaticMeshComponent;	
 
-UCLASS()
+UCLASS(abstract)
 class GALAGA_USFX_L02_API ANaveEnemiga : public AActor
 {
 	GENERATED_BODY()
@@ -66,6 +66,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 protected:
-	virtual void Mover();
+	void Mover(float DeltaTime) PURE_VIRTUAL(ANaveEnemiga::Mover, );
 
 };

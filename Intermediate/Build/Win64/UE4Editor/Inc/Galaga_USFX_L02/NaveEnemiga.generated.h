@@ -21,7 +21,7 @@ private: \
 	static void StaticRegisterNativesANaveEnemiga(); \
 	friend struct Z_Construct_UClass_ANaveEnemiga_Statics; \
 public: \
-	DECLARE_CLASS(ANaveEnemiga, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Galaga_USFX_L02"), NO_API) \
+	DECLARE_CLASS(ANaveEnemiga, AActor, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Galaga_USFX_L02"), NO_API) \
 	DECLARE_SERIALIZER(ANaveEnemiga)
 
 
@@ -30,14 +30,14 @@ private: \
 	static void StaticRegisterNativesANaveEnemiga(); \
 	friend struct Z_Construct_UClass_ANaveEnemiga_Statics; \
 public: \
-	DECLARE_CLASS(ANaveEnemiga, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Galaga_USFX_L02"), NO_API) \
+	DECLARE_CLASS(ANaveEnemiga, AActor, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Galaga_USFX_L02"), NO_API) \
 	DECLARE_SERIALIZER(ANaveEnemiga)
 
 
 #define Galaga_USFX_L02_Source_Galaga_USFX_L02_NaveEnemiga_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ANaveEnemiga(const FObjectInitializer& ObjectInitializer); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANaveEnemiga) \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANaveEnemiga) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANaveEnemiga); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANaveEnemiga); \
 private: \
@@ -55,7 +55,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANaveEnemiga); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANaveEnemiga); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ANaveEnemiga)
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(ANaveEnemiga)
 
 
 #define Galaga_USFX_L02_Source_Galaga_USFX_L02_NaveEnemiga_h_14_PRIVATE_PROPERTY_OFFSET

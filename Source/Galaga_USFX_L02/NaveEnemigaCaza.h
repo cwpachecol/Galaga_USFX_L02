@@ -19,10 +19,11 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
+	ANaveEnemigaCaza();
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 public:
-	virtual void Mover() override;
+	virtual void Mover(float DeltaTime);
 
 };

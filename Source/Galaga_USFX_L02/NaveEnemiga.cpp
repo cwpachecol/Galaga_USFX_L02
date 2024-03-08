@@ -12,10 +12,10 @@ ANaveEnemiga::ANaveEnemiga()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> malla(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule'"));
+	//static ConstructorHelpers::FObjectFinder<UStaticMesh> malla(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule'"));
 	// Create the mesh component
 	mallaNaveEnemiga = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ShipMesh"));
-	mallaNaveEnemiga->SetStaticMesh(malla.Object);
+	//mallaNaveEnemiga->SetStaticMesh(malla.Object);
 	mallaNaveEnemiga->SetupAttachment(RootComponent);
 	RootComponent = mallaNaveEnemiga;
 }
@@ -34,7 +34,5 @@ void ANaveEnemiga::Tick(float DeltaTime)
 
 }
 
-void ANaveEnemiga::Mover()
-{
-}
+
 

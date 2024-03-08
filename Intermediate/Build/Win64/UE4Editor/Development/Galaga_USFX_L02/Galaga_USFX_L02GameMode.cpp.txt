@@ -15,3 +15,7 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L02\Galaga_USFX_L02Pawn.generated.h
 C:\src_SIS457\Galaga_USFX_L02\Source\Galaga_USFX_L02\NaveEnemiga.h
 C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L02\NaveEnemiga.generated.h
+C:\src_SIS457\Galaga_USFX_L02\Source\Galaga_USFX_L02\NaveEnemigaCaza.h
+C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L02\NaveEnemigaCaza.generated.h
+C:\src_SIS457\Galaga_USFX_L02\Source\Galaga_USFX_L02\NaveEnemigaTransporte.h
+C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L02\NaveEnemigaTransporte.generated.h
