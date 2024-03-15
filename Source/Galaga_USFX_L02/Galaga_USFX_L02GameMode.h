@@ -28,6 +28,11 @@ public:
 	ANaveEnemigaCaza* NaveEnemigaCaza02;
 	ANaveEnemigaTransporte* NaveEnemigaTransporte01;
 	ANaveEnemigaTransporte* NaveEnemigaTransporte02;
+
+public:
+	TArray<ANaveEnemiga*> TANavesEnemigas;
+	TArray<ANaveEnemigaCaza*> TANavesEnemigasCaza;
+	TArray<ANaveEnemigaTransporte*> TANavesEnemigasTransporte;
 };
 
 

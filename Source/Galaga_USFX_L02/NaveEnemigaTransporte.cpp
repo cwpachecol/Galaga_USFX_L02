@@ -13,6 +13,9 @@ ANaveEnemigaTransporte::ANaveEnemigaTransporte()
 {
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> malla(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Plane.Shape_Plane'"));
 	mallaNaveEnemiga->SetStaticMesh(malla.Object);
+
+	dimensionCargaOcupada = 300.0f;
+	dimensionCargaDisponible = 700.0f;
 }
 
 void ANaveEnemigaTransporte::Mover(float DeltaTime)
@@ -30,4 +33,9 @@ void ANaveEnemigaTransporte::Mover(float DeltaTime)
 
 	// Establece la nueva posición del actor
 	SetActorLocation(NuevaPosicion);
+}
+
+void ANaveEnemigaTransporte::Cargar(float dimensionCarga, float pesoCarga)
+{
+	dimensionCargaOcupada = dimensionCargaDisponible - dimensionCarga;
 }
