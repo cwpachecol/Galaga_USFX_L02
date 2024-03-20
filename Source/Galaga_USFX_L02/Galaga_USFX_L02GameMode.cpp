@@ -29,6 +29,7 @@ void AGalaga_USFX_L02GameMode::BeginPlay()
 		for (int i = 0; i < 5; i++) {
 			ANaveEnemigaCaza* NaveEnemigaCazaActual = World->SpawnActor<ANaveEnemigaCaza>(ubicacionActualNaveEnemiga, rotacionNave);
 			//TANavesEnemigasCaza.Add(NaveEnemigaCazaActual);
+			NaveEnemigaCazaActual->SetNombre("nave enemiga caza " + FString::FromInt(i));
 			TANavesEnemigas.Add(NaveEnemigaCazaActual);
 			TMPosicionesNavesEnemigas.Add(NaveEnemigaCazaActual, ubicacionActualNaveEnemiga);
 
@@ -41,6 +42,7 @@ void AGalaga_USFX_L02GameMode::BeginPlay()
 			
 			ANaveEnemigaTransporte* NaveEnemigaTransporteActual = World->SpawnActor<ANaveEnemigaTransporte>(ubicacionActualNaveEnemiga, rotacionNave);
 			//TANavesEnemigasTransporte.Add(NaveEnemigaTransporteActual);
+			NaveEnemigaTransporteActual->SetNombre("nave enemiga transporte" + FString::FromInt(j));
 			TANavesEnemigas.Add(NaveEnemigaTransporteActual);
 			TMPosicionesNavesEnemigas.Add(NaveEnemigaTransporteActual, ubicacionActualNaveEnemiga);
 
