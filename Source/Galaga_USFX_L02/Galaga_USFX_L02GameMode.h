@@ -33,6 +33,11 @@ public:
 	TArray<ANaveEnemiga*> TANavesEnemigas;
 	TArray<ANaveEnemigaCaza*> TANavesEnemigasCaza;
 	TArray<ANaveEnemigaTransporte*> TANavesEnemigasTransporte;
+	UPROPERTY()
+	TMap<ANaveEnemiga*, FVector> TMPosicionesNavesEnemigas;
+
+
+	void MostrarPosicionesNavesEnemigas();
 };
 
 
