@@ -1,0 +1,3 @@
+C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Definitions.Galaga_USFX_L02.h
+C:\src_SIS457\Galaga_USFX_L02\Source\Galaga_USFX_L02\Capsula.h
+C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L02\Capsula.generated.h

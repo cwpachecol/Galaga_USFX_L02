@@ -9,6 +9,7 @@
 class ANaveEnemiga;
 class ANaveEnemigaCaza;
 class ANaveEnemigaTransporte;
+class ACapsula;
 
 UCLASS(MinimalAPI)
 class AGalaga_USFX_L02GameMode : public AGameModeBase
@@ -36,8 +37,11 @@ public:
 	UPROPERTY()
 	TMap<ANaveEnemiga*, FVector> TMPosicionesNavesEnemigas;
 
+	ACapsula* capsulaPrueba;
 
 	void MostrarPosicionesNavesEnemigas();
+
+	void destruirCapsula();
 };
 
 

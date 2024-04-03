@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\Galaga_USFX_L02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Capsula.cpp.obj"
 "C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Galaga_USFX_L02.cpp.obj"
 "C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Galaga_USFX_L02GameMode.cpp.obj"
 "C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Galaga_USFX_L02Pawn.cpp.obj"
@@ -14,6 +15,7 @@
 "C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\NaveEnemiga.cpp.obj"
 "C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\NaveEnemigaCaza.cpp.obj"
 "C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\NaveEnemigaTransporte.cpp.obj"
+"C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Capsula.gen.cpp.obj"
 "C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Galaga_USFX_L02.init.gen.cpp.obj"
 "C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Galaga_USFX_L02GameMode.gen.cpp.obj"
 "C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Galaga_USFX_L02Pawn.gen.cpp.obj"
