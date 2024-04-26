@@ -7,6 +7,7 @@
 #include "Capsula.generated.h"
 
 class UStaticMeshComponent;
+class UMovimientoAleatorio;
 
 UCLASS()
 class GALAGA_USFX_L02_API ACapsula : public AActor
@@ -17,7 +18,10 @@ public:
 	// Sets default values for this actor's properties
 	ACapsula();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent* mallaCapsula;
+
+	UMovimientoAleatorio* movimientoAleatorio;
 
 protected:
 	// Called when the game starts or when spawned

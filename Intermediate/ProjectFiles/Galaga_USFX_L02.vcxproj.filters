@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Galaga_USFX_L02.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3553D2A5-F8D2-41B2-9915-87C976AEDF82}</UniqueIdentifier>
+      <UniqueIdentifier>{3C2DB595-5BC6-4DCE-AFF6-ADB44E361B2C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Galaga_USFX_L02.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{23E49ECE-1339-4A82-89F1-AACEE2BEA5B4}</UniqueIdentifier>
+      <UniqueIdentifier>{A46A9A1E-056C-43EC-B26F-2102F07326D4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,12 +32,24 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Galaga_USFX_L02">
-      <UniqueIdentifier>{DB43E2F7-2D22-41CA-875F-8308F83DBCA5}</UniqueIdentifier>
+      <UniqueIdentifier>{EC5BDB98-6516-4BE3-A1B7-00950B5D18A5}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Galaga_USFX_L02\CapacidadAerea.cpp">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_USFX_L02\CapacidadAerea.h">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Galaga_USFX_L02\Capsula.cpp">
       <Filter>Source\Galaga_USFX_L02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Galaga_USFX_L02\Capsula.h">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_USFX_L02\EstructuraPNA.cpp">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_USFX_L02\EstructuraPNA.h">
       <Filter>Source\Galaga_USFX_L02</Filter>
     </ClInclude>
     <None Include="..\..\Source\Galaga_USFX_L02\Galaga_USFX_L02.Build.cs">
@@ -67,6 +79,18 @@
     <ClInclude Include="..\..\Source\Galaga_USFX_L02\Galaga_USFX_L02Projectile.h">
       <Filter>Source\Galaga_USFX_L02</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_USFX_L02\MotorPNA.cpp">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_USFX_L02\MotorPNA.h">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_USFX_L02\MovimientoAleatorio.cpp">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_USFX_L02\MovimientoAleatorio.h">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Galaga_USFX_L02\NaveEnemiga.cpp">
       <Filter>Source\Galaga_USFX_L02</Filter>
     </ClCompile>
@@ -83,6 +107,24 @@
       <Filter>Source\Galaga_USFX_L02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Galaga_USFX_L02\NaveEnemigaTransporte.h">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_USFX_L02\PlanoPNA.cpp">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_USFX_L02\PlanoPNA.h">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_USFX_L02\PNA.cpp">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_USFX_L02\PNA.h">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_USFX_L02\PNABuilder.cpp">
+      <Filter>Source\Galaga_USFX_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_USFX_L02\PNABuilder.h">
       <Filter>Source\Galaga_USFX_L02</Filter>
     </ClInclude>
   </ItemGroup>

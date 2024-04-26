@@ -3,6 +3,7 @@
 
 #include "Capsula.h"
 #include "Components/StaticMeshComponent.h"
+#include "MovimientoAleatorio.h"
 
 // Sets default values
 ACapsula::ACapsula()
@@ -11,6 +12,7 @@ ACapsula::ACapsula()
 	PrimaryActorTick.bCanEverTick = true;
 
 	mallaCapsula = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MallaCapsula"));
+	movimientoAleatorio = CreateDefaultSubobject<UMovimientoAleatorio>(TEXT("MovimientoAleatorio"));
 	//mallaNaveEnemiga->SetStaticMesh(malla.Object);
 	mallaCapsula->SetupAttachment(RootComponent);
 	RootComponent = mallaCapsula;

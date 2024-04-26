@@ -231,8 +231,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L02
-/I C:\src_SIS457\Galaga_USFX_L02\Source
+/I D:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L02
+/I D:\src_SIS457\Galaga_USFX_L02\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -256,18 +256,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\Galaga_USFX_L02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\Galaga_USFX_L02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\Galaga_USFX_L02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L02\Galaga_USFX_L02Projectile.gen.cpp"
-/FI"C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Definitions.Galaga_USFX_L02.h"
-/Fo"C:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Galaga_USFX_L02Projectile.gen.cpp.obj"
+/FI"D:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\Galaga_USFX_L02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\Galaga_USFX_L02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\Galaga_USFX_L02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L02\Galaga_USFX_L02Projectile.gen.cpp"
+/FI"D:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Definitions.Galaga_USFX_L02.h"
+/Fo"D:\src_SIS457\Galaga_USFX_L02\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L02\Galaga_USFX_L02Projectile.gen.cpp.obj"
 /TP
 /GR-
 /W4

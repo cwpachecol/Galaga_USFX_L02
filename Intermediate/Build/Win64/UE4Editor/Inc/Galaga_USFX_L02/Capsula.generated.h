@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GALAGA_USFX_L02_Capsula_generated_h
 
-#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_SPARSE_DATA
-#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_RPC_WRAPPERS
-#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_INCLASS_NO_PURE_DECLS \
+#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_SPARSE_DATA
+#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_RPC_WRAPPERS
+#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACapsula(); \
 	friend struct Z_Construct_UClass_ACapsula_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ACapsula)
 
 
-#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_INCLASS \
+#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesACapsula(); \
 	friend struct Z_Construct_UClass_ACapsula_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ACapsula)
 
 
-#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_STANDARD_CONSTRUCTORS \
+#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACapsula(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACapsula) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_ENHANCED_CONSTRUCTORS \
+#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACapsula(ACapsula&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACapsula)
 
 
-#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_PRIVATE_PROPERTY_OFFSET
-#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_11_PROLOG
-#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_GENERATED_BODY_LEGACY \
+#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_PRIVATE_PROPERTY_OFFSET
+#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_12_PROLOG
+#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_PRIVATE_PROPERTY_OFFSET \
-	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_SPARSE_DATA \
-	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_RPC_WRAPPERS \
-	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_INCLASS \
-	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_STANDARD_CONSTRUCTORS \
+	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_PRIVATE_PROPERTY_OFFSET \
+	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_SPARSE_DATA \
+	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_RPC_WRAPPERS \
+	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_INCLASS \
+	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_GENERATED_BODY \
+#define Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_PRIVATE_PROPERTY_OFFSET \
-	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_SPARSE_DATA \
-	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_INCLASS_NO_PURE_DECLS \
-	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_14_ENHANCED_CONSTRUCTORS \
+	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_PRIVATE_PROPERTY_OFFSET \
+	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_SPARSE_DATA \
+	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_INCLASS_NO_PURE_DECLS \
+	Galaga_USFX_L02_Source_Galaga_USFX_L02_Capsula_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
